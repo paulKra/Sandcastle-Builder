@@ -1320,7 +1320,7 @@ Molpy.DefineGUI = function() {
 			if(((floor > 3094)&&(frac==0))||((floor > 1417)&&(frac==0.1))){
 				return 'https://placekitten.com/'+ (Molpy.IsEnabled('Chromatic Heresy') ? '' : 'g/') + x + '/' + y;
 			}else if(frac==0){
-				return 'https://139.162.169.39/Time/otcolorization/' + newp;
+				return 'https://upperattic.at/Time/otcolorization/' + newp;
 			} else if(Molpy.fracParts.indexOf(frac)>-1){
 				return 'https://xkcd.mscha.org/otcstories/'+Molpy.NewPixFloor(frac)+Molpy.fixLength(floor,4)+'.png'
 			} else if(Molpy.fracParts.indexOf(frac)==-1){return 'https://placekitten.com/g/' + x + '/' + y;} //ErrorCat is error
